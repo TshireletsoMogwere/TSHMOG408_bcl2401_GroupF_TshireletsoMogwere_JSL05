@@ -22,7 +22,7 @@ const guardians = {
     "Gamora": "Pop",
     // Add preferences for Drax, Rocket, and Groot
     "Drax": "Rock",
-    "Rocket": "Pop",
+    "Rocket": "R&B",
     "Groot": "Pop",
 };
 
@@ -61,7 +61,7 @@ function displayPlaylists(playlists) {
             // Split the song into artist and song title
             const [artist, title] = song.split(' - ');
 
-            // Create a li element for each song
+            // Create a ul element for each song
             const songItem = document.createElement('ul');
             songItem.classList.add('song'); // Add 'song' class
             const songTitle = document.createElement('span');
